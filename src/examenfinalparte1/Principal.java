@@ -14,9 +14,7 @@ public class Principal {
  public int suma(int num1, int num2) {
         return num1 + num2;
     }
- /**
-  * Este metodo va a sumar dos numeros distintos utilizando el metodo Suma
-  * @param num1 valor del 1 numero
-  * @param num2 valor del 2 numero
-  * @return Por ultimo retorna el valor de la suma de ambos recogida en i
-  */
+ 
+
+  
+}
