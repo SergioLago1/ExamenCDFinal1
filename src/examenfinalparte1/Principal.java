@@ -1,22 +1,22 @@
 package examenfinalparte1;
-
+/**
+ * @author sergio
+ 
+ */
 public class Principal {
 
     int i;
-
-    public Principal(int j, int m) {
-        i = met(j, m);
+ /**
+     * Metodo el cual realiza una suma de 2 numeros
+     * @param num1 valor del num 1 
+     * @param num2 valor del num 2 
+     */
+ public int suma(int num1, int num2) {
+        return num1 + num2;
     }
-
-    public Principal(int j) {
-        i = met(j, j);
-    }
-
-    public Principal() {
-        i = -1;
-    }
-
-    public int met(int x, int x1) {
-        return x + x1;
-    }
-}
+ /**
+  * Este metodo va a sumar dos numeros distintos utilizando el metodo Suma
+  * @param num1 valor del 1 numero
+  * @param num2 valor del 2 numero
+  * @return Por ultimo retorna el valor de la suma de ambos recogida en i
+  */
