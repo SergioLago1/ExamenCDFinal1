@@ -24,3 +24,13 @@ public class Principal {
         i = suma(num1, num2);
         return i;
     }
+/**
+ * Este metodo va a sumar 2 numeros iguales, y solo se le introduce un parametro
+ * Utilizamos otra vez el metodo Suma
+ * @param num Valor del numero que se introduce 
+ * @return Retorna el valor de la suma recogida en i
+ */
+    public int sumaMismoNum(int num) {
+        i = suma(num, num);
+        return i;
+    }
