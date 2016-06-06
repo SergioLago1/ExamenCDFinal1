@@ -30,7 +30,18 @@ public class Principal {
  * @param num Valor del numero que se introduce 
  * @return Retorna el valor de la suma recogida en i
  */
-    public int sumaMismoNum(int num) {
+    public int sumaIgual(int num) {
         i = suma(num, num);
         return i;
     }
+    /**
+ * Este metodo simplemente nos devuelve el valor -1
+ * @return 
+ */
+    public int menosUno() {
+        i = -1;
+        return i;
+    }
+
+  
+}
